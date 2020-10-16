@@ -1,21 +1,27 @@
-import { StatusBar } from 'expo-status-bar';
+// import { StatusBar } from 'expo-status-bar';
 import React from 'react';
-import { StyleSheet, Text, View } from 'react-native';
+import { StyleSheet, View, Platform } from 'react-native';
+// import { Button } from 'native-base'
+
+import Screen from './src/components'
+
+// var myBg = require('./assets/background_hdpi.png');
 
 export default function App() {
+
   return (
     <View style={styles.container}>
-      <Text>Open up App.js to start working on your app!</Text>
-      <StatusBar style="auto" />
+      <Screen />
     </View>
-  );
+  )
+  
 }
 
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
+    // marginTop: Platform.OS === "android" ? 24 : 0,
+    // justifyContent: 'center',
+    // alignItems: 'center',
   },
 });
