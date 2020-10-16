@@ -1,0 +1,12 @@
+{
+  "name": "PokemonSearch",
+  "displayName": "PokemonSearch",
+  "expo": {
+    "name": "PokemonSearch",
+    "slug": "PokemonSearch",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  }
+}
